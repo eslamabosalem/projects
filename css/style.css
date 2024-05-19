@@ -1,0 +1,722 @@
+.header-content 
+{
+
+background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.4)) ,url(../imges/hero-bg.jpg);
+background-position: center;
+background-size: cover ;
+
+
+}
+
+
+.dropdown-item
+{
+
+top: 0;
+
+}
+.dropdown-item:hover
+{
+
+
+color: #0078FF;
+top: 100%;
+}
+
+
+
+h1
+{
+    position: absolute;
+
+  
+}
+
+h1::after
+{
+  font-size: 3rem;
+content: "";
+animation: type 7s infinite linear;
+-webkit-animation: type 9s infinite linear;
+}
+
+body
+{
+  background-color: #F5F5F5;
+}
+
+@keyframes type
+{
+
+0%
+{
+
+  content: "D";  
+}
+1%
+{
+
+  content: "De";  
+}
+2%
+{
+
+  content: "Des";  
+}
+3%
+{
+
+  content: "Desi";  
+}
+4%
+{
+
+  content: "Desig";  
+}
+5%
+{
+
+  content: "Design";  
+}
+6%
+{
+
+  content: "Designe";  
+}
+7%
+{
+
+  content: "Designer";  
+}
+8%
+{
+
+  content: "Designe";  
+}
+9%
+{
+
+  content: "Design";  
+}
+10%
+{
+
+  content: "Desig";  
+}
+11%
+{
+
+  content: "Desi";  
+}
+12%
+{
+
+  content: "Des";  
+}
+13%
+{
+
+  content: "De";  
+}
+14%
+{
+
+  content: "D";  
+}
+15%
+{
+
+  content: "D";  
+}
+16%
+{
+
+  content: "De";  
+}
+17%
+{
+
+  content: "Dev";  
+}
+18%
+{
+
+  content: "Deve";  
+}
+19%
+{
+
+  content: "Devel";  
+}
+20%
+{
+
+  content: "Develo";  
+}
+21%
+{
+
+  content: "Develop";  
+}
+22%
+{
+
+  content: "Develope";  
+}
+23%
+{
+
+  content: "Developer";  
+}
+24%
+{
+
+  content: "Develope";  
+}
+24%
+{
+
+  content: "Develop";  
+}
+26%
+{
+
+  content: "Develo";  
+}
+27%
+{
+
+  content: "Devel";  
+}
+28%
+{
+
+  content: "Deve";  
+}
+29%
+{
+
+  content: "Dev";  
+}
+30%
+{
+
+  content: "De";  
+}
+31%
+{
+  content: "D";  
+}
+32%
+{
+
+  content: "F";  
+}
+33%
+{
+
+  content: "Fr";  
+}
+34%
+{
+
+  content: "Fre";  
+}
+35%
+{
+
+  content: "Free";  
+}
+36%
+{
+
+  content: "Freel";  
+}
+37%
+{
+
+  content: "Freela";  
+}
+38%
+{
+
+  content: "Freelan";  
+}
+39%
+{
+
+  content: "Freelanc";  
+}
+40%
+{
+
+  content: "Freelance";  
+}
+41%
+{
+
+  content: "Freelancer";  
+}42%
+{
+
+  content: "Freelance";  
+}
+43%
+{
+
+  content: "Freelanc";  
+}
+44%
+{
+
+  content: "Freelan";  
+}
+45%
+{
+
+  content: "Freela";  
+}
+46%
+{
+
+  content: "Freel";  
+}
+47%
+{
+
+  content: "Free";  
+}
+48%
+{
+
+  content: "Fre";  
+}
+49%
+{
+
+  content: "Fr";  
+}
+50%
+{
+
+  content: "P";  
+}
+51%
+{
+
+  content: "Ph";  
+}
+52%
+{
+
+  content: "Pho";  
+}
+53%
+{
+
+  content: "Phot";  
+}
+54%
+{
+
+  content: "Photo";  
+}
+55%
+{
+
+  content: "Photog";  
+}
+56%
+{
+
+  content: "Photogr";  
+}
+57%
+{
+
+  content: "Photogra";  
+}
+58%
+{
+
+  content: "Photograp";  
+}
+60%
+{
+
+  content: "Photograph";  
+}
+62%
+{
+
+  content: "Photographe";  
+}
+64%
+{
+
+  content: "Photographer";  
+}
+66%
+{
+
+  content: "Photographe";  
+}
+68%
+{
+
+  content: "Photograph";  
+}
+70%
+{
+
+  content: "Photograp";  
+}
+71%
+{
+
+  content: "Photogra";  
+}
+73%
+{
+
+  content: "Photogr";  
+}
+74%
+{
+
+  content: "Photog";  
+}
+75%
+{
+
+  content: "Photo";  
+}
+76%
+{
+
+  content: "Phot";  
+}
+78%
+{
+
+  content: "Pho";  
+}
+80%
+{
+
+  content: "Ph";  
+}
+100%
+{
+
+  content: "p";  
+}
+
+
+
+
+}
+
+/* 2 */
+
+.linear-h
+{
+  background: rgb(48,201,233);
+  background: linear-gradient(90deg, rgba(48,201,233,1) 84%, rgba(222,240,244,1) 84%);
+background-position: center;
+background-size: cover ;
+width: 24rem;
+height: 10px;
+
+}
+.linear-c
+{
+  background: rgb(48,201,233);
+  background: linear-gradient(90deg, rgba(48,201,233,1) 71%, rgba(222,240,244,1) 71%);
+background-position: center;
+background-size: cover ;
+width: 24rem;
+height: 10px;
+
+}
+.linear-p
+{
+  background: rgb(48,201,233);
+  background: linear-gradient(90deg, rgba(48,201,233,1) 50%, rgba(222,240,244,1) 50%);
+background-position: center;
+background-size: cover ;
+width: 24rem;
+height: 10px;
+
+}
+.linear-j
+{
+  background: rgb(48,201,233);
+  background: linear-gradient(90deg, rgba(48,201,233,1) 90%, rgba(222,240,244,1) 90%);
+background-position: center;
+background-size: cover ;
+width: 24rem;
+height: 10px;
+
+}
+
+.about
+{
+
+width: 6rem;
+
+height: 3px;
+background-color: #30c9e9;
+}
+
+li
+{
+
+position: relative;
+
+}
+#navbarScroll li::after
+{
+content: '';
+position: absolute;
+background-color: white;
+height: 1px;
+left: 0;
+bottom: 0;
+width: 0;
+transition: all 0.5s;
+}
+#navbarScroll li:hover::after
+{
+
+width: 90%;
+
+
+}
+
+
+
+
+
+.fool
+{
+margin: auto;
+width: 40px;
+height: 5px;
+background-color:rgba(0, 120, 255, 0.7) ;
+}
+ 
+.pti i
+{
+
+  border: 5px solid #0078FF;
+border-radius: 50%;
+padding: 10px;
+
+}
+.pti:hover i
+{
+background-color:rgba(0, 120, 255, 0.7);
+border: 5px solid #CDE1F8;
+transition: 0.5s;
+
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 3 */
+
+
+.lineer
+{
+  background-image: linear-gradient(rgba(0, 120, 255, 0.9) ,rgba(0, 120, 255, 0.7)) ,url(../imges/counters-bg.jpg);
+
+background-position: center;
+background-size: cover ;
+background-attachment: fixed;
+
+
+}
+
+
+
+.poot i 
+{
+
+color: white;
+font-size: 1.5rem;
+
+}
+
+
+/* 4 */
+.scroll img 
+{
+
+transition: all 0.5s;
+
+
+
+}
+.scroll img:hover
+{
+
+transform: scale(1.1 ,1.1);
+
+
+}
+
+
+/* 5 */
+.liner
+{
+  background-image: linear-gradient(rgba(0, 120, 255, 0.9) ,rgba(0, 120, 255, 0.7)) ,url(../imges/overlay-bg.jpg);
+background-attachment: fixed;
+background-position: center;
+background-size: cover ;
+
+
+
+}
+
+
+
+
+
+
+.foll 
+{
+
+
+position: relative;
+
+}
+.tool
+{
+
+position: absolute;
+ 
+transform: translate(-50% ,-50%  );
+left: 50%;
+background: #0078FF;
+}
+
+
+#slider [data-bs-target]
+{
+
+width: 15px;
+height: 15px;
+border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Get in Touch 6  */
+
+.btn-bg
+{
+transition: all 0.5s;
+  background-color: #0078FF
+
+}
+
+.btn-bg:hover
+{
+
+background-color: #30c9e9;
+
+
+}
+
+
+ul
+{
+
+list-style: none; 
+
+}
+
+.room span
+{
+  color: #0078FF;
+  padding-right: 10px;
+}
+.room li
+{
+ 
+  color: #404849;
+
+
+}
+
+.style-ul ul li
+{
+
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: 4px solid #0078FF ;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.style-ul ul li:hover
+{
+  background-color:#0078FF ;
+  border: 5px solid #CDE1F8;
+
+}
+.style-ul ul li:hover i
+{
+
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+/*feeter  */
+
+
+
+.laner
+{
+  background-image: linear-gradient(rgb(0, 98, 211) ,rgb(0, 98, 211)) ,url(../imges/overlay-bg.jpg);
+}
+
+html
+{
+
+scroll-padding-top: 70px;
+
+}
